@@ -65,7 +65,6 @@ int main() {
                 }
             }
             std::cout << num << std::endl;
-
     }
     return 0;
 }
