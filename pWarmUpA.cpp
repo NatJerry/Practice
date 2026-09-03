@@ -7,14 +7,11 @@
 
 int main() {
     int row = 0;
-    {
-        bool pass1 = false;
-        while (!pass1) {
+        while (true) {
             std::cin >> row;
             if (1 <= row && row <= 3e5) break;
             std::cout << "Wrong input!" << std::endl;
         }
-    }
     std::vector<int> height = std::vector<int>(row);
     for (int i = 0; i < row; i++) {
         bool pass2 = false;
